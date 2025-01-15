@@ -39,7 +39,7 @@ runs:
     - name: Add and Commit Changes
       run: |
         git add .
-        git commit -m ${{ inputs.commit-message }}
+        git commit -m "${{ inputs.commit-message }}"
       shell: bash
 
     - name: Update Branch
