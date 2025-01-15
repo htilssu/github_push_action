@@ -58,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.json.schema",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -80,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736923459727</updated>
       <workItem from="1736923460941" duration="221000" />
-      <workItem from="1736940295643" duration="12100000" />
+      <workItem from="1736940295643" duration="14470000" />
     </task>
     <task id="LOCAL-00001" summary="update github token to default value get from github context">
       <option name="closed" value="true" />
@@ -162,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736965628277</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="pull">
+      <option name="closed" value="true" />
+      <created>1736966323184</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736966323184</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,5 +194,9 @@
     <MESSAGE value="update push" />
     <MESSAGE value="pull" />
     <option name="LAST_COMMIT_MESSAGE" value="pull" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -34,6 +34,8 @@ runs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github@users.noreply.github.com"
+        git fetch
+        git checkout ${{github.head_ref}}
       shell: bash
 
     - name: Add and Commit Changes
@@ -50,8 +52,7 @@ runs:
     - name: Push Changes
       id: push
       run: |
-        git pull origin ${{ inputs.branch || github.head_ref }}:HEAD  --no-edit
-        git push origin HEAD:${{ inputs.branch || github.head_ref }}
+        git push origin ${{ inputs.branch || github.head_ref }}
       shell: bash
       env:
         GITHUB_TOKEN: ${{ inputs.token }}
