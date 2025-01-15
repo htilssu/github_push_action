@@ -1,4 +1,4 @@
-name: "Github Push"
+name: "Github Pushy"
 description: 'Push all current commits to your repository'
 inputs:
   branch:

@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce1f113d-6901-4ee6-b81d-a67b7a61b285" name="Changes" comment="">
-      <change afterPath="D:/github_push_action/.idea/.gitignore" afterDir="false" />
-      <change afterPath="D:/github_push_action/.idea/discord.xml" afterDir="false" />
-      <change afterPath="D:/github_push_action/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="D:/github_push_action/.idea/misc.xml" afterDir="false" />
-      <change afterPath="D:/github_push_action/.idea/modules.xml" afterDir="false" />
-      <change afterPath="D:/github_push_action/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="D:/github_push_action/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="D:/github_push_action/action.yml" afterDir="false" />
-      <change afterPath="D:/github_push_action/github_push_action.iml" afterDir="false" />
-      <change afterPath="D:/github_push_action/run.sh" afterDir="false" />
+      <change beforePath="D:/github_push_action/action.yml" beforeDir="false" afterPath="D:/github_push_action/action.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="D:/github_push_action" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "htilssu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:htilssu/github_push_action.git",
+    "accountId": "1ddcc911-c43a-4246-9c89-ce09077ba1ab"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Users\tolas\.config\herd-lite\bin\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -75,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736923459727</updated>
       <workItem from="1736923460941" duration="221000" />
-      <workItem from="1736940295643" duration="5317000" />
+      <workItem from="1736940295643" duration="6027000" />
     </task>
     <servers />
   </component>
