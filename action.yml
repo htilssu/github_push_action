@@ -9,6 +9,10 @@ inputs:
     description: "commit message"
     required: false
     default: 'Automated commit by GitHub Action'
+  token:
+    description: "GitHub Token"
+    required: true
+    default: ${{ github.token }}
 outputs:
   is-success:
     description: "Is the push successful"
@@ -45,4 +49,4 @@ runs:
         git push origin ${{ inputs.branch || github.head_ref }}
       shell: bash
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN:  ${{ github. }}
