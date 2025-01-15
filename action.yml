@@ -45,11 +45,9 @@ runs:
           exit 0
         fi
         git commit -m "${{ inputs.commit-message }}"
-        eco "success=true" >> $GITHUB_OUTPUT
       shell: bash
 
     - name: Push Changes
-      if: steps.commit.outputs.success == 'true'
       id: push
       run: |
         git pull origin ${{ inputs.branch || github.head_ref }}:HEAD  --no-edit
