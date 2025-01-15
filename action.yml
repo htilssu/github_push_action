@@ -1,4 +1,8 @@
 name: "Github Pushy"
+author: 'htilssu'
+branding:
+  icon: upload-cloud
+  color: green
 description: 'Push all current commits to your repository'
 inputs:
   branch:
