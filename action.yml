@@ -53,4 +53,4 @@ runs:
         git push origin ${{ inputs.branch || github.head_ref }}
       shell: bash
       env:
-        GITHUB_TOKEN:  ${{ github. }}
+        GITHUB_TOKEN:  ${{ inputs.token }}
