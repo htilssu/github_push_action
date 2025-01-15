@@ -52,9 +52,8 @@ runs:
       if: steps.commit.outputs.success == 'true'
       id: push
       run: |
-        git pull
-        git merge --no-edit --no-ff ${{ github.head_ref }}
+        git pull origin ${{ inputs.branch || github.head_ref }}:HEAD  --no-edit
         git push origin HEAD:${{ inputs.branch || github.head_ref }}
       shell: bash
       env:
-        GITHUB_TOKEN:  ${{ inputs.token }}
+        GITHUB_TOKEN: ${{ inputs.token }}
