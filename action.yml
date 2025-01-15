@@ -46,15 +46,10 @@ runs:
         git commit -m "${{ inputs.commit-message }}"
       shell: bash
 
-    - name: Update Branch
-      run: |
-        git pull origin ${{ github.head_ref }}
-      shell: bash
-
     - name: Push Changes
       id: push
       run: |
-        git push origin ${{ inputs.branch || github.head_ref }}
+        git push origin HEAD:${{ inputs.branch || github.head_ref }}
       shell: bash
       env:
         GITHUB_TOKEN:  ${{ inputs.token }}
