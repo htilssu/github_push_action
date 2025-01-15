@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce1f113d-6901-4ee6-b81d-a67b7a61b285" name="Changes" comment="update github token to default value get from github context">
+    <list default="true" id="ce1f113d-6901-4ee6-b81d-a67b7a61b285" name="Changes" comment="round commit message with double quotes">
       <change beforePath="D:/github_push_action/action.yml" beforeDir="false" afterPath="D:/github_push_action/action.yml" afterDir="false" />
+      <change beforePath="D:/github_push_action/run.sh" beforeDir="false" afterPath="D:/github_push_action/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736923459727</updated>
       <workItem from="1736923460941" duration="221000" />
-      <workItem from="1736940295643" duration="7936000" />
+      <workItem from="1736940295643" duration="8305000" />
     </task>
     <task id="LOCAL-00001" summary="update github token to default value get from github context">
       <option name="closed" value="true" />
@@ -97,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736961743741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="round commit message with double quotes">
+      <option name="closed" value="true" />
+      <created>1736962118896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736962118896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update github token to default value get from github context" />
-    <option name="LAST_COMMIT_MESSAGE" value="update github token to default value get from github context" />
+    <MESSAGE value="round commit message with double quotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="round commit message with double quotes" />
   </component>
 </project>

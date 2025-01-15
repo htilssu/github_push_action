@@ -39,6 +39,10 @@ runs:
     - name: Add and Commit Changes
       run: |
         git add .
+        if [[ -z $(git diff --cached) ]]; then
+          echo "No changes to commit."
+          exit 0
+        fi
         git commit -m "${{ inputs.commit-message }}"
       shell: bash
 
