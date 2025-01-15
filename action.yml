@@ -49,6 +49,7 @@ runs:
     - name: Push Changes
       id: push
       run: |
+        git pull
         git push origin HEAD:${{ inputs.branch || github.head_ref }}
       shell: bash
       env:

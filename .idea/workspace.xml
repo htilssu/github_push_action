@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce1f113d-6901-4ee6-b81d-a67b7a61b285" name="Changes" comment="round commit message with double quotes">
+    <list default="true" id="ce1f113d-6901-4ee6-b81d-a67b7a61b285" name="Changes" comment="update push">
       <change beforePath="D:/github_push_action/action.yml" beforeDir="false" afterPath="D:/github_push_action/action.yml" afterDir="false" />
-      <change beforePath="D:/github_push_action/run.sh" beforeDir="false" afterPath="D:/github_push_action/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736923459727</updated>
       <workItem from="1736923460941" duration="221000" />
-      <workItem from="1736940295643" duration="8305000" />
+      <workItem from="1736940295643" duration="9743000" />
     </task>
     <task id="LOCAL-00001" summary="update github token to default value get from github context">
       <option name="closed" value="true" />
@@ -106,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736962118896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add check nothing to commit">
+      <option name="closed" value="true" />
+      <created>1736962489059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736962489059</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update push">
+      <option name="closed" value="true" />
+      <created>1736962916592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736962916592</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update github token to default value get from github context" />
     <MESSAGE value="round commit message with double quotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="round commit message with double quotes" />
+    <MESSAGE value="add check nothing to commit" />
+    <MESSAGE value="update push" />
+    <option name="LAST_COMMIT_MESSAGE" value="update push" />
   </component>
 </project>
