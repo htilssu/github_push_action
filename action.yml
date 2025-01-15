@@ -1,4 +1,5 @@
 name: "Github Pushy"
+icon: "arrow-up-circle"
 description: 'Push all current commits to your repository'
 inputs:
   branch:
