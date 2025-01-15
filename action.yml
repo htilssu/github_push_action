@@ -49,8 +49,8 @@ runs:
     - name: Push Changes
       id: push
       run: |
-        git branch
         git pull
+        git merge --no-edit --no-ff ${{ github.head_ref }}
         git push origin HEAD:${{ inputs.branch || github.head_ref }}
       shell: bash
       env:
