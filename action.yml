@@ -1,0 +1,48 @@
+name: "Github Push"
+description: 'Push all current commits to your repository'
+inputs:
+  branch:
+    description: "branch name"
+    required: false
+    default: ''
+  commit-message:
+    description: "commit message"
+    required: false
+    default: 'Automated commit by GitHub Action'
+outputs:
+  is-success:
+    description: "Is the push successful"
+    value: ${{ steps.push.outputs.success }}
+runs:
+  using: "composite"
+  steps:
+    - name: Set GitHub Path
+      run: echo "$GITHUB_ACTION_PATH" >> $GITHUB_PATH
+      shell: bash
+      env:
+        GITHUB_ACTION_PATH: ${{ github.action_path }}
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github@users.noreply.github.com"
+      shell: bash
+
+    - name: Add and Commit Changes
+      run: |
+        git add .
+        git commit -m ${{ inputs.commit-message }}
+      shell: bash
+
+    - name: Update Branch
+      run: |
+        git pull origin ${{ github.head_ref }}
+      shell: bash
+
+    - name: Push Changes
+      id: push
+      run: |
+        git push origin ${{ inputs.branch || github.head_ref }}
+      shell: bash
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

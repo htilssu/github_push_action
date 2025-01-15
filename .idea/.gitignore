@@ -1,0 +1,8 @@
+# Default ignored files
+/../../../:github_push_action/.idea/shelf/
+/../../../:github_push_action/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../../:github_push_action/.idea/httpRequests/
+# Datasource local storage ignored files
+/../../../:github_push_action/.idea/dataSources/
+/../../../:github_push_action/.idea/dataSources.local.xml
