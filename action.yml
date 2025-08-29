@@ -52,7 +52,6 @@ runs:
     - name: Push Changes
       id: push
       run: |
+        git remote set-url origin https://x-access-token:${{ inputs.token }}@github.com/${{ github.repository }}
         git push origin ${{ inputs.branch || github.head_ref }}
       shell: bash
-      env:
-        GITHUB_TOKEN: ${{ inputs.token }}
